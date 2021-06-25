@@ -29,6 +29,7 @@ public class Archivo {
         }catch(Exception ex){
             ex.printStackTrace();
         }
+    }
         public List<String> leer(){
             List<String> lista = new ArrayList<>();
             String cadena="";
@@ -46,5 +47,5 @@ public class Archivo {
         }
         
     }
-}
+
 
